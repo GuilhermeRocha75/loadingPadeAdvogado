@@ -1,0 +1,206 @@
+.fundo{
+   margin: 0;
+    padding: 0;
+    height: auto;
+    background-image: url('/img/trinunalIlustrativa.avif');
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+.wpp{
+    position: fixed; /* Define a posição fixa para a imagem */
+    top: 530px; /* Define a distância do topo */
+    right: 10px;
+    height: 100;
+    width: 100px;
+}
+
+
+
+.container2 { 
+    color: #f2f2f2;
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    align-items: center; /* Alinha verticalmente os elementos ao centro */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    align-items: center; /* Alinha verticalmente os elementos ao centro, se necessário */
+}
+.container2 img{
+    padding: 5px;
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.container img {
+    margin-right: 10px; /* Adiciona margem à direita da imagem para separá-la do título */
+}
+
+
+.titulo{
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(39, 56, 148);
+
+    
+}
+
+.container {
+   
+    background-color: rgba(7, 9, 150, 0.438);
+}
+
+
+
+header{
+   
+    color: rgb(15, 16, 17);
+    
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline rgb(0, 0, 0);
+    
+}
+.titulo{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+    color: #f2f2f2;
+    font-style: italic;
+    text-decoration: dashed;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    height: 100vh; /* Define a altura da div container para a altura total da viewport */
+
+    
+}
+
+.bio{
+    font-size: large;
+    padding-top: 50px;
+    font-weight: 200;
+}
+.half {
+    color: #f2f2f2;
+    flex: 1; /* Faz com que ambas as metades ocupem a mesma quantidade de espaço */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+.half img {
+    padding-left: 100px;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da metade */
+    height: 500px; /* Permite que a altura da imagem seja ajustada automaticamente */
+    
+}
+
+.perfil{
+    padding-top: 30px;
+    border-radius: 200px; /* Opcional: Adiciona bordas arredondadas */
+}
+
+
+
+
+.info{
+    font-size: x-large;
+}
+.info img{
+   
+    padding-left: 5px;
+    max-width:40px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+a{
+    padding-inline: 10px;
+    background-color: rgb(17, 32, 112);
+    color: #f2f2f2;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+ }
+ 
+
+
+
+ .areas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    
+    height: 100px;
+    width: 500px; /* Aumentando a largura */
+    box-sizing: border-box; /* Inclua o padding e a borda na largura */
+
+}
+
+.box span {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.box img{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto; 
+}
+ 
+@media (min-width: 768px) {
+    .areas {
+        flex-wrap: wrap; /* Permite que as caixas sejam organizadas em várias linhas quando necessário */
+    }
+
+    .box {
+        padding-top: 40px;
+        text-align: center;
+        flex: 1 0 40%; /* Faz com que cada caixa ocupe metade da largura do contêiner pai (2 caixas por linha) */
+        max-width: 50%; /* Define a largura máxima como metade do contêiner pai */
+        margin: 10px; /* Adiciona margem entre as caixas */
+        height: 150px; /* Ajuste a altura conforme necessário */
+    }
+}
+
+footer {
+    background-color: rgba(1, 1, 92, 0.548);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
